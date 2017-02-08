@@ -38,7 +38,7 @@
 
 # Create the Scoring file destination directory if it does not already exist
 
-dir="/Library/Application Support/SecurityScoring"
+dir="/Library/Application Support/CAmperIT/SecurityScoring"
 
 if [[ ! -e "$dir" ]]; then
     mkdir "$dir"
@@ -51,8 +51,8 @@ plistlocation="$dir/org_security_score.plist"
 ##################################################################
 
 # 1.1 Verify all Apple provided software is current
-# OrgScore1_1="true"
-OrgScore1_1="false"
+OrgScore1_1="true"
+# OrgScore1_1="false"
 
 # 1.2 Enable Auto Update 
 OrgScore1_2="true"
@@ -75,8 +75,8 @@ OrgScore2_1_1="true"
 # OrgScore2_1_1="false"
 
 # 2.1.3 Show Bluetooth status in menu bar 
-OrgScore2_1_3="true"
-# OrgScore2_1_3="false"
+# OrgScore2_1_3="true"
+OrgScore2_1_3="false"
 
 # 2.2.2 Ensure time set is within appropriate limits 
 OrgScore2_2_2="true"
@@ -103,24 +103,24 @@ OrgScore2_4_2="true"
 # OrgScore2_4_2="false"
 
 # 2.4.3 Disable Screen Sharing 
-OrgScore2_4_3="true"
-# OrgScore2_4_3="false"
+# OrgScore2_4_3="true"
+OrgScore2_4_3="false"
 
 # 2.4.5 Disable Remote Login 
-OrgScore2_4_5="true"
-# OrgScore2_4_5="false"
+# OrgScore2_4_5="true"
+OrgScore2_4_5="false"
 
 # 2.4.7 Disable Bluetooth Sharing 
 OrgScore2_4_7="true"
 # OrgScore2_4_7="false"
 
 # 2.4.8 Disable File Sharing 
-OrgScore2_4_8="true"
-# OrgScore2_4_8="false"
+# OrgScore2_4_8="true"
+OrgScore2_4_8="false"
 
 # 2.4.9 Disable Remote Management 
-OrgScore2_4_9="true"
-# OrgScore2_4_9="false"
+# OrgScore2_4_9="true"
+OrgScore2_4_9="false"
 
 # 2.5.1 Disable "Wake for network access" 
 OrgScore2_5_1="true"
@@ -131,24 +131,24 @@ OrgScore2_5_2="true"
 # OrgScore2_5_2="false"
 
 # 2.6.3 Enable Firewall 
-OrgScore2_6_3="true"
-# OrgScore2_6_3="false"
+# OrgScore2_6_3="true"
+OrgScore2_6_3="false"
 
 # 2.6.4 Enable Firewall Stealth Mode 
-OrgScore2_6_4="true"
-# OrgScore2_6_4="false"
+# OrgScore2_6_4="true"
+OrgScore2_6_4="false"
 
 # 2.6.5 Review Application Firewall Rules 
-OrgScore2_6_5="true"
-# OrgScore2_6_5="false"
+# OrgScore2_6_5="true"
+OrgScore2_6_5="false"
 
 # 2.8 Pair the remote control infrared receiver if enabled 
-OrgScore2_8="true"
-# OrgScore2_8="false"
+# OrgScore2_8="true"
+OrgScore2_8="false"
 
 # 2.9 Enable Secure Keyboard Entry in terminal.app 
-OrgScore2_9="true"
-# OrgScore2_9="false"
+# OrgScore2_9="true"
+OrgScore2_9="false"
 
 # 2.10 Java 6 is not the default Java runtime 
 OrgScore2_10="true"
@@ -167,52 +167,52 @@ OrgScore3_5="true"
 # OrgScore3_5="false"
 
 # 4.1 Disable Bonjour advertising service 
-OrgScore4_1="true"
-# OrgScore4_1="false"
+# OrgScore4_1="true"
+OrgScore4_1="false"
 
 # 4.2 Enable "Show Wi-Fi status in menu bar" 
 OrgScore4_2="true"
 # OrgScore4_2="false"
 
 # 4.4 Ensure http server is not running 
-OrgScore4_4="true"
-# OrgScore4_4="false"
+# OrgScore4_4="true"
+OrgScore4_4="false"
 
 # 4.5 Ensure ftp server is not running
-OrgScore4_5="true"
-# OrgScore4_5="false"
+# OrgScore4_5="true"
+OrgScore4_5="false"
 
 # 4.6 Ensure nfs server is not running
-OrgScore4_6="true"
-# OrgScore4_6="false"
+# OrgScore4_6="true"
+OrgScore4_6="false"
 
 # 5.1.1 Secure Home Folders
 OrgScore5_1_1="true"
 # OrgScore5_1_1="false"
 
 # 5.1.2 Check System Wide Applications for appropriate permissions
-OrgScore5_1_2="true"
-# OrgScore5_1_2="false"
+# OrgScore5_1_2="true"
+OrgScore5_1_2="false"
 
 # 5.1.3 Check System folder for world writable files
-OrgScore5_1_3="true"
-# OrgScore5_1_3="false"
+# OrgScore5_1_3="true"
+OrgScore5_1_3="false"
 
 # 5.1.4 Check Library folder for world writable files
-OrgScore5_1_4="true"
-# OrgScore5_1_4="false"
+# OrgScore5_1_4="true"
+OrgScore5_1_4="false"
 
 # 5.3 Reduce the sudo timeout period
-OrgScore5_3="true"
-# OrgScore5_3="false"
+# OrgScore5_3="true"
+OrgScore5_3="false"
 
 # 5.4 Automatically lock the login keychain for inactivity
 OrgScore5_4="true"
 # OrgScore5_4="false"
 
 # 5.7 Do not enable the "root" account
-OrgScore5_7="true"
-# OrgScore5_7="false"
+# OrgScore5_7="true"
+OrgScore5_7="false"
 
 # 5.8 Disable automatic login
 OrgScore5_8="true"

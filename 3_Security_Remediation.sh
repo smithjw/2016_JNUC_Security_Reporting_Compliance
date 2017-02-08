@@ -36,8 +36,8 @@
 # For "true" items, runs query for current computer/user compliance.
 # Non-compliant items are logged to /Library/Application Support/SecurityScoring/org_audit
 
-plistlocation="/Library/Application Support/SecurityScoring/org_security_score.plist"
-auditfilelocation="/Library/Application Support/SecurityScoring/org_audit"
+plistlocation="/Library/Application Support/CAmperIT/SecurityScoring/org_security_score.plist"
+auditfilelocation="/Library/Application Support/CAmperIT/SecurityScoring/org_audit"
 currentUser=`ls -l /dev/console | cut -d " " -f4`
 hardwareUUID=`/usr/sbin/system_profiler SPHardwareDataType | grep "Hardware UUID" | awk -F ": " '{print $2}' | xargs`
 

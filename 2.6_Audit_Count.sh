@@ -2,5 +2,5 @@
 
 # Security Reporting - Count Risks
 
-auditfile=/Library/Application\ Support/SecurityScoring/org_audit
+auditfile=/Library/Application\ Support/CAmperIT/SecurityScoring/org_audit
 echo "<result>$(cat "$auditfile" | grep "*" | wc -l | tr -d '[:space:]')</result>"
